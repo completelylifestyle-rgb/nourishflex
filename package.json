@@ -1,0 +1,27 @@
+{
+  "name": "nourishflex",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "tailwindcss -i ./app/globals.css -o ./app/output.css"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@clerk/nextjs": "^5.3.2",
+    "@supabase/supabase-js": "^2.45.4",
+    "stripe": "^16.6.0",
+    "framer-motion": "^11.3.31",
+    "lucide-react": "^0.452.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "tailwindcss": "^3.4.10",
+    "postcss": "^8.4.39",
+    "autoprefixer": "^10.4.20"
+  }
+}
